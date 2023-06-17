@@ -1,0 +1,49 @@
+/* Large Screens */
+@media screen and (min-width:1300px) {
+    .__container {
+        width: 1220px;
+        margin: auto;
+    }
+}
+
+/* Small Laptop */
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+    .__container {
+        max-width: 970px;
+        margin: auto;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .__container {
+        max-width: 740px;
+        margin: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .__logo {
+        display: inline;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 767px) {
+    .__container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .__logo {
+        display: inline;
+        margin: 0 auto;
+    }
+}
