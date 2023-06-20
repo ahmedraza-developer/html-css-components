@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="__testimonails">
+        <div class="__container">
+            <div class="__main">
+            <div class="__content">
+                <h2>Trusted And Loved By The World's Best</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quam, doloribus nihil <br> nam quia
+                    dolore voluptatum ad corrupti libero sint.</p>
+            </div>
+            <input type="checkbox" id="__backWord">
+                <label for="__backWord" class="__arrowB"></label>
+            <div class="__row">
+                <div class="__col4">
+                    <img src="img/Jordan.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum <b> <i> laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia. </b> </i></p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Matt.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, <b> <i> eligendi voluptatem?
+                        Delectus ad odio id animi  </b> </i> perspiciatis. Sunt harum laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia. </p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Jordan.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum laudantium <b> <i> iusto! Enim, distinctio harum quia
+                        ullam voluptas </b> </i> eveniet officia.</p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Matt.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia.</p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Jordan.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia.</p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Matt.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia.</p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+                <div class="__col4">
+                    <img src="img/Jordan.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eligendi voluptatem?
+                        Delectus ad odio id animi perspiciatis. Sunt harum laudantium iusto! Enim, distinctio harum quia
+                        ullam voluptas eveniet officia.</p>
+                    <h3>Ben Pines</h3>
+                    <span>CMO at Elementor</span>
+                </div>
+            </div>
+            <input type="checkbox" id="__forWord">
+                <label for="__forWord" class="__arrowF"></label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript-Slick-Slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.__testimonails .__row').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                // autoplay: true,
+                autoplaySpeed: 3000,
+                responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+            });
+        });
+    </script>
+</body>
+
+</html>
